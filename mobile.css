@@ -1,0 +1,125 @@
+body {
+    background-color: #fdebe1;
+    font-family: 'Open Sans Condensed', sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.headerPhotoMobile {
+    width: 768px;
+    position: fixed;
+    top: -5%;
+    left: -50%;
+    filter: blur(2px);
+    z-index: -2;
+}
+   
+.heading { 
+    text-align: center;
+    position: relative;
+    top: 10vh;
+}
+
+.heading > button {
+    width: 105px;
+    height: 35px;
+    cursor: pointer;
+    color: white;
+    font-size: 15px;
+}
+
+.kontakt { 
+    margin-right: 15px;
+    border-radius: 0 0 0 20px;
+    border: none;
+    background-color: #55ACEF;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.omOs { 
+    margin-left: 0px;
+    border-radius: 0 20px 0 0;
+    border: 2px solid white;
+    background-color: transparent;
+}
+
+.kontakt > a { 
+    color: white;
+    text-decoration: none;
+}
+
+.omOs > a { 
+    color: white;
+    text-decoration: none;
+}
+
+.headTitle { 
+    display: flex;
+    text-align: center;
+}
+
+.logo {
+    width: 50px;
+    position: fixed;
+    top: 2%;
+    left: 25%;
+}
+
+.headTitle > h3 { 
+    position: fixed;
+    top: 1.5%;
+    left: 40%;
+    color: white;
+    font-weight: 600;
+}
+
+.heading > h1 { 
+    color: white;
+    font-size: 40px;
+    text-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.lokaleColor { 
+    color: #55ACEF;
+    text-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.colored-box {
+    position: relative;
+    top: 23vh;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh; 
+    background-color: #fdebe1; 
+    z-index: -1;
+}
+
+.textBox { 
+    position: relative;
+    top: -10vh;
+    width: 320px;
+    background-color: #fdebe1;
+    text-align: center;
+    overflow: hidden;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.textBox > h2 { 
+    text-align: left;
+    margin: 10px;
+    font-size: 25px;
+}
+
+.textBox > p {
+    text-align: left;
+    margin: 10px;
+}
+
+.textBox > img {
+    width: 320px;
+    
+    border: 1px red dashed;
+}
+ 
